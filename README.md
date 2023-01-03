@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Cristino
+# Neuron project
 
 _website design project_
 
@@ -14,9 +14,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/40-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/41-grupe-portfolio-neuron/
 
-Design: [Cristino](https://shreethemes.in/cristino/layouts/index.html)
+Design: [Neuron](https://demo.auburnforest.com/html/neuron/demo/index.html)
 
 ## 🎯 Project features/goals
 
@@ -25,6 +25,7 @@ Design: [Cristino](https://shreethemes.in/cristino/layouts/index.html)
 -   form
 -   animations
 -   icons
+-   favicons
 -   content rendering
 -   gallery
 -   slider
@@ -72,7 +73,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Aurimas: [Github](https://github.com/aurimas1551)
 
 ## ⚠️ License
 
@@ -80,4 +81,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 🔗 Other resources
 
-https://randomuser.me/photos
+No other resouces.
