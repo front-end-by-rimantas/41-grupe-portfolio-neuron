@@ -75,6 +75,8 @@ There is no tests for this project.
 
 Aurimas: [Github](https://github.com/aurimas1551)
 
+Tautvydas: [Github](https://github.com/Zukauskas)
+
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
