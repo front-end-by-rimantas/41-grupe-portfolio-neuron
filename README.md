@@ -74,6 +74,7 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Aurimas: [Github](https://github.com/aurimas1551)
+Šarūnas: [Github](https://github.com/sarunaskl)
 
 ## ⚠️ License
 
