@@ -52,7 +52,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/40-grupe-portfolio.git
+    git clone https://github.com/front-end-by-rimantas/41-grupe-portfolio-neuron.git
     ```
 2. Install NPM packages
     ```sh
@@ -74,6 +74,8 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Aurimas: [Github](https://github.com/aurimas1551)
+
+Vladimir: [Github](https://github.com/VladimirKarin)
 
 ## ⚠️ License
 
