@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -15,16 +18,19 @@ body * {
 body {
     font-family: 'Poppins', sans-serif;
 }
+h1, h2, h3 {
+    font-weigth: 600;
+    text-transform: capitalize;
+}
 
 h1 {
     font-size: 46px;
     line-height: 60px;
-    text-transform: capitalize;
     color: #fff;
 }
 
 h2 {
-    font-size: 35;
+    font-size: 35px;
     color: #333;
 }
 
@@ -37,5 +43,6 @@ h3 {
 
 p {
     font-size: 15px;
+    font-weigth: 400;
     color: #666;
 }
