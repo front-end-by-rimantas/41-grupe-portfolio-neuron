@@ -12,7 +12,7 @@ _website design project_
 
 ## 🌟 About
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for educational porpuses only. At this moment we are only taking pull requests from authors.
 
 Site published at: https://front-end-by-rimantas.github.io/41-grupe-portfolio-neuron/
 
