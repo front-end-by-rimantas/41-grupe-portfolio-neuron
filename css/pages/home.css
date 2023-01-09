@@ -8,11 +8,11 @@
 
 /* Components */
 @import '../components/hero.css';
+@import '../components/header.css';
 
 /* Custom */
 
 /* Header start */
-@import '../components/header.css';
 /* Header end */
 
 /* Hero start */
