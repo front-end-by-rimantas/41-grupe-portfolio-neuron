@@ -16,7 +16,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 h1, h2, h3 {
-    font-weigth: 600;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -36,10 +36,12 @@ h3 {
     color: #333;
 }
 
-.section-description {}
+.section-description {
+    
+}
 
 p {
     font-size: 15px;
-    font-weigth: 400;
+    font-weight: 400;
     color: #666;
 }
