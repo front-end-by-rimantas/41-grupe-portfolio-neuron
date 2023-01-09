@@ -1,0 +1,22 @@
+.hero {
+    background-color: #01a1f9;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content > .left-content {
+    align-self: center;
+}
+
+.main-content > .right-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-content > .two-people {
+    height: 80%;
+    align-self: flex-end;
+}
