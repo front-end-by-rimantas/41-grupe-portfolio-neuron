@@ -13,18 +13,23 @@
 .container-tiles {
     background-color: rgb(68, 68, 241);
     display: block;
-    width: 820px
+    width: 1000px;
 }
 
 .column-left {
     float: left;
+    position: relative;
+    top: -50px;
 }
 
 .column-right {
     float: right;
+    position: relative;
+    top: 50px;
 }
 
 .about-description {
+    background-color: rgb(255, 255, 255);
     width: 700px;
     display: block;
     text-align: left;
@@ -33,13 +38,14 @@
     margin: 20px;
 }
 
-#neuro-about>div>[class*='flaticon-']::before {
+#neuron-about>div>[class*='flaticon-'] {
     font-size: 50px;
+
 }
 
 .tiles {
     background: pink;
-    width: 300px;
+    width: 230px;
     padding: 25px;
     margin: 30px;
     text-align: center;
