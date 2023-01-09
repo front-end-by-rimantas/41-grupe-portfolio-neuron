@@ -8,6 +8,9 @@
 }
 
 .main-content > .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-self: center;
 }
 
@@ -16,7 +19,15 @@
     flex-direction: row;
 }
 
-.right-content > .two-people {
+.main-content > .right-content > .two-people {
     height: 80%;
     align-self: flex-end;
+}
+
+.main-title {
+    line-height: 70px;
+}
+.main-description {
+    color: #fff;
+    font-size: 1.25em;
 }
