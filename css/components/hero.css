@@ -1,0 +1,70 @@
+.hero {
+    background-image: url('../../img/backgrounds/hero-background.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 10em;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+
+.main-content > .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+.main-content > .right-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content > .right-content > .two-people {
+    height: 80%;
+    align-self: flex-end;
+}
+
+.main-title {
+    line-height: 70px;
+}
+.main-description {
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.main-content > .left-content > .buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75em 2em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2em;
+    transition: all 0.3s;
+}
+
+.btn#active {
+    background-color: #fff;
+    color: #01a1f9;
+}
+
+.btn#active:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.buttons .btn:hover {
+    background-color: #fff;
+    color: #01a1f9;
+}
