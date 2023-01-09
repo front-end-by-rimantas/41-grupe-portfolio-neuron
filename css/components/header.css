@@ -2,6 +2,8 @@
     padding-top: 0;
     background-color: lightblue;
     color: white;
+    position: absolute;
+    top: 0px;
 }
 
 .header-contacts-socials{
