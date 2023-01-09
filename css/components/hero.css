@@ -1,10 +1,12 @@
 .hero {
     background-color: #01a1f9;
+    min-height: 100vh;
 }
 
 .main-content {
     display: flex;
     flex-direction: row;
+    gap: 4em;
 }
 
 .main-content > .left-content {
