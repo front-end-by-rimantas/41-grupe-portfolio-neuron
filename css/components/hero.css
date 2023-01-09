@@ -1,6 +1,7 @@
 .hero {
     background-color: #01a1f9;
     min-height: 100vh;
+    padding-top: 10em;
 }
 
 .main-content {
