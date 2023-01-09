@@ -31,3 +31,36 @@
     color: #fff;
     font-size: 1.25em;
 }
+
+.main-content > .left-content > .buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75em 2em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2em;
+    transition: all 0.3s;
+}
+
+.btn#active {
+    background-color: #fff;
+    color: #01a1f9;
+}
+
+.btn#active:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.buttons .btn:hover {
+    background-color: #fff;
+    color: #01a1f9;
+}
