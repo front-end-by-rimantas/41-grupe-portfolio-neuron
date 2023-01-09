@@ -7,11 +7,11 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* Components */
-@import '../components/header.css';
 
 /* Custom */
 
 /* Header start */
+@import '../components/header.css';
 /* Header end */
 
 /* Hero start */
