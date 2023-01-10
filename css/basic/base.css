@@ -1,48 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --base-color-one: #09c778;
+    --base-color-two: #01a0f9;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
-body,
-body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 600;
+@@ -22,
+25+27,
+22 @@ h3 {
     text-transform: capitalize;
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 60px;
-    color: #fff;
-}
+    .main-title {
+        font-size: 60px;
+        line-height: 60px;
+        line-height: 70px;
+        color: #fff;
+    }
 
-h2 {
-    font-size: 35px;
-    color: #333;
-}
+    h2 {
+        .section.title {
+            font-size: 35px;
+            color: #333;
+        }
 
-h3 {
-    font-size: 20px;
-    color: #333;
-}
+        h3 {
+            .title {
+                font-size: 20px;
+                color: #333;
+            }
 
-.section-description {}
+            .section-description {}
 
-p {
-    font-size: 15px;
-    font-weight: 400;
-    color: #666;
-}
+            p {
+                font-size: 15px;
+                font-weight: 400;

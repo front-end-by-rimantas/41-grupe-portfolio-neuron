@@ -34,17 +34,28 @@
 .flaticon-artificial-intelligence:before {
     content: '\f100';
     font-size: 75px;
-    color: linear-gradient(0deg, #01a0f9, #09c778);
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flaticon-robotic-arm:before {
     content: '\f101';
     font-size: 75px;
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flaticon-ai:before {
     content: '\f102';
     font-size: 75px;
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flaticon-play-button:before {
@@ -54,6 +65,10 @@
 .flaticon-artificial-intelligence-1:before {
     content: '\f104';
     font-size: 75px;
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flaticon-automaton:before {

@@ -1,5 +1,5 @@
 #neuron-about {
-    background-color: #fefefe;
+    background-color: #f8f9fa;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,12 +8,15 @@
 .upper-row {
     display: flex;
     flex-wrap: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .container-tiles {
-    background-color: rgb(68, 68, 241);
-    display: block;
-    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    /* display: block; */
+    width: 75%;
 }
 
 .column-left {
@@ -30,7 +33,7 @@
 
 .about-description {
     background-color: rgb(255, 255, 255);
-    width: 700px;
+    width: 30%;
     display: block;
     text-align: left;
     line-height: 30px;
@@ -38,19 +41,9 @@
     margin: 20px;
 }
 
-#neuro-about>div>[class*='flaticon-']:befor {
-    font-size: 100px;
-
-}
-
-.flaticon-artificial-intelligence-1:before {
-    font-size: 100px;
-}
-
 .tiles {
-    background: pink;
-    width: 230px;
-    padding: 15px 0;
+    background: #fff;
+    padding: 15px;
     margin: 30px;
     text-align: center;
 }
@@ -68,10 +61,8 @@
     margin: 20px;
 }
 
-.title {
-    margin: 20px;
-}
-
-.description {
+/* .title {
+    /* margin: 20px; */
+*/ p {
     margin: 20px;
 }
