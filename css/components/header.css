@@ -1,0 +1,80 @@
+.header-comp{
+    padding-top: 0;
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+
+.header-contacts-socials{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0,123,255,.5);
+}
+
+.header-contacts > div > a{
+    text-decoration: none;
+}
+
+.header-contacts{
+    display: flex;
+}
+
+.header-contacts > div{
+    padding-right: 25px;
+}
+
+.header-contacts > div > i {
+    padding-right: 8px;
+}
+
+.header-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-socials > i {
+    padding-left: 20px;
+}
+
+.header-socials > i:first-child{
+    padding-left: 0px;
+}
+
+.header-logo-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header-logo-nav > nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.header-logo-nav > nav > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link{
+    color: white;
+    text-decoration: none;
+}
