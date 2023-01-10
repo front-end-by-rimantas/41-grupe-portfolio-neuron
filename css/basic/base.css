@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --base-color-one: #09c778;
+    --base-color-two: #01a0f9;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -22,23 +27,20 @@ h3 {
     text-transform: capitalize;
 }
 
-h1 {
+.main-title {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 70px;
     color: #fff;
 }
 
-h2 {
+.section.title {
     font-size: 35px;
     color: #333;
 }
 
-h3 {
+.title {
     font-size: 20px;
     color: #333;
-}
-
-.section-description {
 }
 
 p {
