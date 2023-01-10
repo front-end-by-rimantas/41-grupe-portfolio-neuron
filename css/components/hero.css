@@ -7,7 +7,6 @@
 
 .main-content {
     display: flex;
-    flex-direction: row;
 }
 
 .main-content > .left-content {
@@ -19,6 +18,12 @@
 
 .main-content > .right-content {
     display: flex;
+    height: 90%;
+}
+
+.main-content > .right-content > .robot {
+    height: 90%;
+    align-self: flex-end;
 }
 
 .main-content > .right-content > .two-people {
@@ -26,9 +31,15 @@
     align-self: flex-end;
 }
 
-.main-title {
-    line-height: 70px;
+.images > img {
+    width: 100%;
 }
+
+.main-title {
+    font-size: 25px;
+    line-height: 35px;
+}
+
 .main-description {
     color: #fff;
     font-size: 1.25em;
@@ -65,4 +76,11 @@
 .buttons .btn:hover {
     background-color: #fff;
     color: #01a1f9;
+}
+
+@media (min-width: 576px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
 }
