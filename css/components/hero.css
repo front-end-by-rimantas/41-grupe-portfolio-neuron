@@ -1,14 +1,12 @@
 .hero {
     background-image: url('../../img/backgrounds/hero-background.jpeg');
     background-repeat: no-repeat;
-    min-height: 100vh;
+    background-size: cover;
     padding-top: 12em;
 }
 
 .main-content {
     display: flex;
-    flex-direction: row;
-    gap: 4em;
 }
 
 .main-content > .left-content {
@@ -20,7 +18,12 @@
 
 .main-content > .right-content {
     display: flex;
-    flex-direction: row;
+    height: 90%;
+}
+
+.main-content > .right-content > .robot {
+    height: 90%;
+    align-self: flex-end;
 }
 
 .main-content > .right-content > .two-people {
@@ -28,12 +31,18 @@
     align-self: flex-end;
 }
 
-.main-title {
-    line-height: 70px;
+.images > img {
+    width: 100%;
 }
+
+.main-title {
+    font-size: 25px;
+    line-height: 35px;
+}
+
 .main-description {
     color: #fff;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 .main-content > .left-content > .buttons {
@@ -46,7 +55,7 @@
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.75em 2em;
-    font-size: 1em;
+    font-size: 0.75em;
     font-weight: 500;
     color: #fff;
     border: 1px solid #fff;
@@ -67,4 +76,34 @@
 .buttons .btn:hover {
     background-color: #fff;
     color: #01a1f9;
+}
+
+@media (min-width: 576px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .buttons .btn {
+        font-size: 1em;
+    }
+    .main-description {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
 }
