@@ -62,11 +62,12 @@
     content: '\f103';
     text-decoration: none;
     font-size: 3em;
-    color: white;
-    background-color: transparent;
+    -webkit-background-image: linear-gradient(135deg, #01a0f9, #09c778);
     background-image: linear-gradient(135deg, #01a0f9, #09c778);
-    animation: pulse-border 1500ms ease-out infinite;
-    transition: all 0.5s ease 0s;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .flaticon-artificial-intelligence-1:before {
@@ -76,7 +77,6 @@
     color: transparent;
     background: linear-gradient(180deg, #01a0f9, #09c778);
     -webkit-background-clip: text;
-    background-clip: text;
 }
 
 .flaticon-automaton:before {
