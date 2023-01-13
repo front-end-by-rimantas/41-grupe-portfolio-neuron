@@ -1,5 +1,4 @@
 /* base */
-@import '../pages/about-us.css';
 @import '../basic/base.css';
 @import '../basic/layout.css';
 
@@ -9,6 +8,7 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* Components */
+@import '../pages/about-us.css';
 @import '../components/hero.css';
 @import '../components/header.css';
 
