@@ -2,23 +2,11 @@
     background-color: #fdfdfd;
 }
 
-.container-tiles {}
-
-.column-left {
-    /* position: relative; */
-    /* top: -3.33em; */
-}
-
-.column-right {
-    /* position: relative; */
-    /* top: 3.33em; */
-}
-
 .tiles {
     display: flex;
     justify-content: center;
     background: #fff;
-    padding: 2em;
+    padding: 1em 2em;
     color: #333;
     margin-bottom: 3em;
     text-align: center;
@@ -50,7 +38,7 @@
 
 
 
-.lower-row {}
+
 
 .about-description {
     background-color: #fff;
@@ -68,7 +56,6 @@
     margin-bottom: 1em;
     color: #333;
 }
-
 
 
 .btn {
@@ -114,5 +101,83 @@ a {
 }
 
 @media (min-width: 768px) {
-    .tiles {}
+    .container-tiles {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tiles {
+        /* display: flex;
+        flex-direction: row; */
+        max-width: 325px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    p {
+        font-size: 14.1px;
+        line-height: 1.8em;
+    }
+
+    .upper-row {
+        padding: 3em 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .container-tiles {
+        display: block;
+        align-content: center;
+    }
+
+    .column-left {
+        position: relative;
+        top: -3.33em;
+        float: left;
+    }
+
+    .column-right {
+        position: relative;
+        top: 3.33em;
+        float: right;
+    }
+
+    .tiles {
+        padding: 15px 10px;
+
+    }
+
+    .tiles-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 195px;
+    }
+
+    .tiles .responsive-title {
+        /*first tile height small correction*/
+        font-size: 15.4px;
+    }
+
+    .about-description {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lower-row {
+        display: block;
+    }
+
+    img {
+        float: right;
+    }
+
+    .lower-about-description {
+        float: left;
+    }
+
 }
