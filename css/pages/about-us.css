@@ -1,28 +1,59 @@
+/* 1em = 16px */
+
 #neuron-about {
     background-color: #fdfdfd;
 }
 
 .tiles {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background: #fff;
     padding: 1em 2em;
     color: #333;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     text-align: center;
     resize: horizontal;
-    box-shadow: 1em 0.7em 5em #e9e9e9;
-    border-radius: 0.5em;
+    box-shadow: 16px 11px 16px #e9e9e9;
+    border-radius: 8px;
 }
 
 .tiles-content {
     max-width: 275px;
 }
 
+.flaticon-artificial-intelligence:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-ai:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-artificial-intelligence-1:before {
+    text-decoration: none;
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-robotic-arm:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 .tiles-content .title {
     font-size: 1.1em;
     font-weight: 600;
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 .tiles:hover {
@@ -36,27 +67,20 @@
     color: white;
 }
 
-
-
-
-
 .about-description {
-    background-color: #fff;
+    background-color: #fdfdfd;
     text-align: left;
-    line-height: 1.em;
-    /* padding: 0.67em; */
-    margin-bottom: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
     color: #333;
 }
 
 .section-title {
     font-size: 1.5em;
     line-height: 1.2em;
-    /* margin: 1.3em 1.3em 1.3em 0; */
-    margin-bottom: 1em;
+    margin: 0.5em 0;
     color: #333;
 }
-
 
 .btn {
     display: inline-block;
@@ -79,8 +103,20 @@
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
+}
 
+.flaticon-play-button:before {
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 50px;
+    text-decoration: none;
+    -webkit-background-image: linear-gradient(135deg, #01a0f9, #09c778);
+    background-image: linear-gradient(135deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .img {
@@ -89,14 +125,17 @@ a {
     margin-bottom: 2em;
 }
 
-@media (min-width: 546px) {
-    .section-title {
-        font-size: 2em;
-    }
+p {
+    margin: 2em 0;
+}
 
-    p {
+
+
+@media (min-width: 546px) {
+
+    .about-description {
         font-size: 16px;
-        margin: 1.3em;
+        margin: 1.3em 0;
     }
 }
 
@@ -107,13 +146,14 @@ a {
     }
 
     .tiles {
-        /* display: flex;
-        flex-direction: row; */
         max-width: 325px;
     }
 }
 
 @media (min-width: 992px) {
+    .section-title {
+        font-size: 1.5em;
+    }
 
     p {
         font-size: 14.1px;
@@ -145,7 +185,7 @@ a {
     }
 
     .tiles {
-        padding: 15px 10px;
+        padding: 1em;
 
     }
 
@@ -153,31 +193,57 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        max-width: 195px;
+        max-width: 175px;
     }
 
+    /*first tile height small correction*/
     .tiles .responsive-title {
-        /*first tile height small correction*/
         font-size: 15.4px;
     }
 
-    .about-description {
-        float: right;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .lower-row {
-        display: block;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
     }
 
-    img {
-        float: right;
+}
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 1em;
     }
 
-    .lower-about-description {
-        float: left;
+    .section-title {
+        font-size: 2em;
     }
 
+    .tiles-content .title {
+        font-size: 1.15em;
+    }
+
+    .tiles-content {
+        max-width: 250px;
+        padding: 0.5em;
+    }
+
+    .tiles-content p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-tiles {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1400px) {
+    .tiles-content {
+        max-width: 2750px;
+    }
+
+    .tiles {
+        padding: 1em 2em;
+    }
 }
