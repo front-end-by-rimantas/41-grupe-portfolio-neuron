@@ -21,7 +21,7 @@
 <body>
     <!-- Header start -->
     <header class="container header-comp">
-        <div class="row header-contacts-socials">
+        <div class="row header-contacts-socials hidden visible-md-flex">
             <div class="header-contacts">
                 <div class="header-email">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -41,7 +41,13 @@
         </div>
         <div class="row header-logo-nav">
             <img src="./img/logo/logo-white.png" alt="Logo white">
-            <nav>
+            <div class="hamburger-menu visible-flex hidden-lg">
+                <i class="fa fa-bars"></i>
+                <p>MENU</p>
+                <a href="#" class="header-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <a href="#" class="header-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            <nav class="hidden visible-lg-flex">
                 <a href="#" class="header-link">Home</a>
                 <a href="#" class="header-link">About</a>
                 <a href="#" class="header-link">Features</a>
