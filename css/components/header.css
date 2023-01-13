@@ -56,11 +56,16 @@
 
 .header-logo-nav {
     display: flex;
-    justify-content: space-between;
     padding: 10px 0;
+    justify-content: space-between;
 }
 
-.header-logo-nav > nav {
+.header-logo-nav > .navigation-cart-search {
+    gap: 10px;
+    display: flex;
+}
+
+.header-logo-nav > .navigation-cart-search > nav {
     display: flex;
     gap: 30px;
     align-items: center;
@@ -68,7 +73,7 @@
     text-transform: uppercase;
 }
 
-.header-logo-nav > nav > a {
+.header-logo-nav .navigation-cart-search > a {
     display: flex;
     align-items: center;
     justify-content: center;
