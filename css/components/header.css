@@ -1,26 +1,26 @@
-.header-comp{
+.header-comp {
     padding-top: 0;
     color: white;
     position: absolute;
     top: 0px;
 }
 
-.header-contacts-socials{
+.header-contacts-socials {
     display: flex;
     justify-content: space-between;
     padding: 14px 0;
-    border-bottom: 1px solid rgba(0,123,255,.5);
+    border-bottom: 1px solid rgba(0, 123, 255, 0.5);
 }
 
-.header-contacts > div > a{
+.header-contacts > div > a {
     text-decoration: none;
 }
 
-.header-contacts{
+.header-contacts {
     display: flex;
 }
 
-.header-contacts > div{
+.header-contacts > div {
     padding-right: 25px;
 }
 
@@ -28,19 +28,19 @@
     padding-right: 8px;
 }
 
-.header-phone{
+.header-phone {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-email{
+.header-email {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-socials{
+.header-socials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,17 +50,23 @@
     padding-left: 20px;
 }
 
-.header-socials > i:first-child{
+.header-socials > i:first-child {
     padding-left: 0px;
 }
 
-.header-logo-nav{
+.header-logo-nav {
     display: flex;
     justify-content: space-between;
+    position: relative;
     padding: 10px 0;
 }
 
-.header-logo-nav > nav {
+.header-logo-nav > .navigation-cart-search {
+    gap: 30px;
+    display: flex;
+}
+
+.header-logo-nav > .navigation-cart-search > nav {
     display: flex;
     gap: 30px;
     align-items: center;
@@ -68,13 +74,45 @@
     text-transform: uppercase;
 }
 
-.header-logo-nav > nav > a{
+.header-logo-nav .navigation-cart-search > a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-link{
+.header-link {
     color: white;
     text-decoration: none;
+}
+
+.hamburger-menu {
+    gap: 10px;
+    align-items: center;
+    line-height: 21px;
+}
+
+.hamburger-menu > p {
+    color: white;
+    line-height: 15px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    top: 60px;
+    background-color: var(--base-color-one);
+    width: 100%;
+}
+
+.dropdown-menu > .header-link {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--base-color-two);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dropdown-visible {
+    display: flex;
 }

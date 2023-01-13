@@ -2,7 +2,7 @@
     background-image: url('../../img/backgrounds/hero-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 12em;
+    padding-top: 7.5em;
 }
 
 .main-content {
@@ -86,6 +86,9 @@
 }
 
 @media (min-width: 768px) {
+    .hero {
+        padding-top: 12em;
+    }
     .buttons .btn {
         font-size: 1em;
     }
