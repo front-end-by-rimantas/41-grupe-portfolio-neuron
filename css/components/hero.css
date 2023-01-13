@@ -1,0 +1,112 @@
+.hero {
+    background-image: url('../../img/backgrounds/hero-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7.5em;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content > .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+.main-content > .right-content {
+    display: flex;
+    height: 90%;
+}
+
+.main-content > .right-content > .robot {
+    height: 90%;
+    align-self: flex-end;
+}
+
+.main-content > .right-content > .two-people {
+    height: 80%;
+    align-self: flex-end;
+}
+
+.images > img {
+    width: 100%;
+}
+
+.main-title {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.main-description {
+    color: #fff;
+    font-size: 1em;
+}
+
+.main-content > .left-content > .buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75em 2em;
+    font-size: 0.75em;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2em;
+    transition: all 0.3s;
+}
+
+.btn#active {
+    background-color: #fff;
+    color: #01a1f9;
+}
+
+.btn#active:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.buttons .btn:hover {
+    background-color: #fff;
+    color: #01a1f9;
+}
+
+@media (min-width: 576px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding-top: 12em;
+    }
+    .buttons .btn {
+        font-size: 1em;
+    }
+    .main-description {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
