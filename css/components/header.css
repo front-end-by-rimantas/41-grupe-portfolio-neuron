@@ -56,8 +56,9 @@
 
 .header-logo-nav {
     display: flex;
-    padding: 10px 0;
     justify-content: space-between;
+    position: relative;
+    padding: 10px 0;
 }
 
 .header-logo-nav > .navigation-cart-search {
@@ -93,4 +94,25 @@
 .hamburger-menu > p {
     color: white;
     line-height: 15px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    top: 60px;
+    background-color: var(--base-color-one);
+    width: 100%;
+}
+
+.dropdown-menu > .header-link {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--base-color-two);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dropdown-visible {
+    display: flex;
 }
