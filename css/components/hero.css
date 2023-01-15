@@ -43,6 +43,7 @@
 .main-description {
     color: #fff;
     font-size: 1em;
+    margin: 0;
 }
 
 .main-content > .left-content > .buttons {
@@ -52,20 +53,9 @@
 }
 
 .buttons .btn {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0.75em 2em;
     font-size: 0.75em;
-    font-weight: 500;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 2em;
+    background: transparent;
     transition: all 0.3s;
-}
-
-.btn#active {
-    background-color: #fff;
-    color: #01a1f9;
 }
 
 .btn#active:hover {
@@ -73,7 +63,8 @@
     color: #fff;
 }
 
-.buttons .btn:hover {
+.buttons .btn:hover,
+.btn#active {
     background-color: #fff;
     color: #01a1f9;
 }
@@ -94,6 +85,7 @@
     }
     .main-description {
         font-size: 1.25em;
+        margin: 0;
     }
 }
 
