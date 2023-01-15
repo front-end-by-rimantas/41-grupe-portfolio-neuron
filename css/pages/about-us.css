@@ -1,0 +1,249 @@
+/* 1em = 16px */
+
+#neuron-about {
+    background-color: #fdfdfd;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 1em 2em;
+    color: #333;
+    margin-bottom: 1.5em;
+    text-align: center;
+    resize: horizontal;
+    box-shadow: 16px 11px 16px #e9e9e9;
+    border-radius: 8px;
+}
+
+.tiles-content {
+    max-width: 275px;
+}
+
+.flaticon-artificial-intelligence:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-ai:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-artificial-intelligence-1:before {
+    text-decoration: none;
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-robotic-arm:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.tiles-content .title {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0.5em 0;
+}
+
+.tiles:hover {
+    background-image: linear-gradient(135deg, #01a0f9, #09c778);
+    transition: all 0.75s ease-in-outd 0s
+}
+
+.tiles:hover p,
+.tiles:hover .title,
+.tiles:hover [class*='flaticon-']::before {
+    color: white;
+}
+
+.about-description {
+    background-color: #fdfdfd;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.section-title {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75em 2.5em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #01a0f9, #09c778);
+    border: 1px solid #fff;
+    border-radius: 2em;
+    transition: all 0.3s;
+    margin-bottom: 2em;
+}
+
+.btn:hover {
+    background: linear-gradient(0deg, #01a0f9, #09c778);
+    transition: all 0.7s ease-out;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.flaticon-play-button:before {
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 50px;
+    text-decoration: none;
+    -webkit-background-image: linear-gradient(135deg, #01a0f9, #09c778);
+    background-image: linear-gradient(135deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+p {
+    margin: 2em 0;
+}
+
+
+
+@media (min-width: 546px) {
+
+    .about-description {
+        font-size: 16px;
+        margin: 1.3em 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-tiles {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tiles {
+        max-width: 325px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 14.1px;
+        line-height: 1.8em;
+    }
+
+    .upper-row {
+        padding: 3em 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .container-tiles {
+        display: block;
+        align-content: center;
+    }
+
+    .column-left {
+        position: relative;
+        top: -3.33em;
+        float: left;
+    }
+
+    .column-right {
+        position: relative;
+        top: 3.33em;
+        float: right;
+    }
+
+    .tiles {
+        padding: 1em;
+
+    }
+
+    .tiles-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 175px;
+    }
+
+    /*first tile height small correction*/
+    .tiles .responsive-title {
+        font-size: 15.4px;
+    }
+
+    .lower-row {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 1em;
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    .tiles-content .title {
+        font-size: 1.15em;
+    }
+
+    .tiles-content {
+        max-width: 250px;
+        padding: 0.5em;
+    }
+
+    .tiles-content p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-tiles {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1400px) {
+    .tiles-content {
+        max-width: 2750px;
+    }
+
+    .tiles {
+        padding: 1em 2em;
+    }
+}

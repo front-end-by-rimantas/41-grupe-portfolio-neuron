@@ -5,8 +5,7 @@
 @font-face {
     font-family: 'Flaticon';
     src: url('../../fonts/flaticon/Flaticon.eot');
-    src: url('../../fonts/flaticon/Flaticon.eot?#iefix')
-            format('embedded-opentype'),
+    src: url('../../fonts/flaticon/Flaticon.eot?#iefix') format('embedded-opentype'),
         url('../../fonts/flaticon/Flaticon.woff2') format('woff2'),
         url('../../fonts/flaticon/Flaticon.woff') format('woff'),
         url('../../fonts/flaticon/Flaticon.ttf') format('truetype'),
@@ -34,184 +33,249 @@
 
 .flaticon-artificial-intelligence:before {
     content: '\f100';
+    font-size: 70px;
 }
+
 .flaticon-robotic-arm:before {
     content: '\f101';
+    font-size: 70px;
 }
+
 .flaticon-ai:before {
     content: '\f102';
+    font-size: 70px;
 }
+
 .flaticon-play-button:before {
     content: '\f103';
+    font-size: 50px;
 }
+
 .flaticon-artificial-intelligence-1:before {
     content: '\f104';
+    font-size: 70px;
 }
+
 .flaticon-automaton:before {
     content: '\f105';
 }
+
 .flaticon-brain:before {
     content: '\f106';
 }
+
 .flaticon-ai-1:before {
     content: '\f107';
 }
+
 .flaticon-artificial-intelligence-2:before {
     content: '\f108';
 }
+
 .flaticon-artificial-intelligence-3:before {
     content: '\f109';
 }
+
 .flaticon-mail:before {
     content: '\f10a';
 }
+
 .flaticon-machine-learning:before {
     content: '\f10b';
 }
+
 .flaticon-machine-learning-1:before {
     content: '\f10c';
 }
+
 .flaticon-code:before {
     content: '\f10d';
 }
+
 .flaticon-gps:before {
     content: '\f10e';
 }
+
 .flaticon-place:before {
     content: '\f10f';
 }
+
 .flaticon-phone:before {
     content: '\f110';
 }
+
 .flaticon-mail-1:before {
     content: '\f111';
 }
+
 .flaticon-artificial-intelligence-4:before {
     content: '\f112';
 }
+
 .flaticon-abc:before {
     content: '\f113';
 }
+
 .flaticon-contract:before {
     content: '\f114';
 }
+
 .flaticon-quote:before {
     content: '\f115';
 }
+
 .flaticon-business-and-finance:before {
     content: '\f116';
 }
+
 .flaticon-binary-code:before {
     content: '\f117';
 }
+
 .flaticon-database:before {
     content: '\f118';
 }
+
 .flaticon-font:before {
     content: '\f119';
 }
+
 .flaticon-speech-bubble:before {
     content: '\f11a';
 }
+
 .flaticon-face:before {
     content: '\f11b';
 }
+
 .flaticon-facial:before {
     content: '\f11c';
 }
+
 .flaticon-data:before {
     content: '\f11d';
 }
+
 .flaticon-facial-recognition:before {
     content: '\f11e';
 }
+
 .flaticon-right-arrow:before {
     content: '\f11f';
 }
+
 .flaticon-seo-and-web:before {
     content: '\f120';
 }
+
 .flaticon-encrypt:before {
     content: '\f121';
 }
+
 .flaticon-encrypt-1:before {
     content: '\f122';
 }
+
 .flaticon-data-encryption:before {
     content: '\f123';
 }
+
 .flaticon-tick:before {
     content: '\f124';
 }
+
 .flaticon-success:before {
     content: '\f125';
 }
+
 .flaticon-send:before {
     content: '\f126';
 }
+
 .flaticon-left-arrow:before {
     content: '\f127';
 }
+
 .flaticon-up-arrow:before {
     content: '\f128';
 }
+
 .flaticon-download-arrow:before {
     content: '\f129';
 }
+
 .flaticon-basket:before {
     content: '\f12a';
 }
+
 .flaticon-stylish-bag:before {
     content: '\f12b';
 }
+
 .flaticon-shopping-bag:before {
     content: '\f12c';
 }
+
 .flaticon-bag:before {
     content: '\f12d';
 }
+
 .flaticon-chat:before {
     content: '\f12e';
 }
+
 .flaticon-robotics:before {
     content: '\f12f';
 }
+
 .flaticon-qr:before {
     content: '\f130';
 }
+
 .flaticon-production:before {
     content: '\f131';
 }
+
 .flaticon-inclusion:before {
     content: '\f132';
 }
+
 .flaticon-art-and-design:before {
     content: '\f133';
 }
+
 .flaticon-feature:before {
     content: '\f134';
 }
+
 .flaticon-seo-and-web-1:before {
     content: '\f135';
 }
+
 .flaticon-search:before {
     content: '\f136';
 }
+
 .flaticon-phone-1:before {
     content: '\f137';
 }
+
 .flaticon-email:before {
     content: '\f138';
 }
+
 .flaticon-error:before {
     content: '\f139';
 }
+
 .flaticon-close:before {
     content: '\f13a';
 }
+
 .flaticon-cross-out:before {
     content: '\f13b';
 }
+
 .flaticon-gps-1:before {
     content: '\f13c';
 }
