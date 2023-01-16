@@ -56,6 +56,7 @@
     font-size: 0.75em;
     background: transparent;
     transition: all 0.3s;
+    padding: 7px 20px;
 }
 
 .btn#active:hover {
@@ -80,12 +81,19 @@
     .hero {
         padding-top: 12em;
     }
+
     .buttons .btn {
         font-size: 1em;
     }
+
     .main-description {
         font-size: 1.25em;
         margin: 0;
+    }
+
+    .main-content .right-content img {
+        height: auto;
+        max-width: 50%;
     }
 }
 
@@ -93,6 +101,11 @@
     .main-title {
         font-size: 45px;
         line-height: 55px;
+    }
+
+    .main-content .right-content img {
+        height: auto;
+        max-width: 50%;
     }
 }
 
