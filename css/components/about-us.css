@@ -98,11 +98,11 @@ p {
         float: right;
     }
 
-    .tiles {
-        padding: 1em;
+    .container-tiles .tiles {
+        padding: 16px;
     }
 
-    .tiles-content {
+    .container-tiles .tiles-content {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -110,7 +110,7 @@ p {
     }
 
     /*first tile height small correction*/
-    .tiles .responsive-title {
+    .container-tiles .tiles .responsive-title {
         font-size: 15.4px;
     }
 
@@ -131,16 +131,16 @@ p {
         font-size: 2em;
     }
 
-    .tiles-content .title {
+    .container-tiles .tiles-content .title {
         font-size: 1.15em;
     }
 
-    .tiles-content {
+    .container-tiles .tiles-content {
         max-width: 250px;
         padding: 0.5em;
     }
 
-    .tiles-content p {
+    .container-tiles .tiles-content p {
         margin: 0;
         padding: 0;
     }
