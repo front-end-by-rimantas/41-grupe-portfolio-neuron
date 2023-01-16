@@ -5,6 +5,11 @@
     top: 0px;
 }
 
+.container.header-comp {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .header-contacts-socials {
     display: flex;
     justify-content: space-between;
