@@ -9,29 +9,29 @@
     display: flex;
 }
 
-.main-content>.left-content {
+.main-content > .left-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-self: center;
 }
 
-.main-content>.right-content {
+.main-content > .right-content {
     display: flex;
     height: 90%;
 }
 
-.main-content>.right-content>.robot {
+.main-content > .right-content > .robot {
     height: 90%;
     align-self: flex-end;
 }
 
-.main-content>.right-content>.two-people {
+.main-content > .right-content > .two-people {
     height: 80%;
     align-self: flex-end;
 }
 
-.images>img {
+.images > img {
     width: 100%;
 }
 
@@ -46,7 +46,7 @@
     margin: 0;
 }
 
-.main-content>.left-content>.buttons {
+.main-content > .left-content > .buttons {
     display: flex;
     gap: 1em;
     margin-top: 1em;
@@ -75,7 +75,6 @@
         font-size: 35px;
         line-height: 45px;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -108,8 +107,6 @@
         height: auto;
         max-width: 50%;
     }
-
-
 }
 
 @media (min-width: 1400px) {
@@ -117,6 +114,4 @@
         font-size: 60px;
         line-height: 70px;
     }
-
-
 }
