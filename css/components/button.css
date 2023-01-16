@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75em 2.5em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #01a0f9, #09c778);
+    border: 1px solid #fff;
+    border-radius: 2em;
+    transition: all 0.3s;
+    margin-bottom: 2em;
+}
+
+.btn:hover {
+    background: linear-gradient(0deg, #01a0f9, #09c778);
+    transition: all 0.7s ease-out;
+}
