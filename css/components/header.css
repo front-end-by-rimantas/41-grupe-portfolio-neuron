@@ -5,6 +5,11 @@
     top: 0px;
 }
 
+.container.header-comp {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .header-contacts-socials {
     display: flex;
     justify-content: space-between;
@@ -60,12 +65,13 @@
 
 .container > .row > .inner-content {
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     padding: 10px 0;
 }
 
 .inner-content > .navigation-cart-search {
-    gap: 30px;
+    gap: 15px;
     display: flex;
 }
 
@@ -98,6 +104,7 @@
 
 .hamburger-menu > p {
     color: white;
+    margin: 0;
     line-height: 15px;
 }
 
@@ -105,10 +112,11 @@
     display: none;
     position: absolute;
     flex-direction: column;
-    left: 0;
-    top: 60px;
+    left: 50%;
+    top: 100px;
     background-color: var(--base-color-one);
-    width: 100%;
+    width: 90%;
+    transform: translate(-50%);
 }
 
 .dropdown-menu > .header-link {
@@ -120,6 +128,12 @@
 
 .dropdown-visible {
     display: flex;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        top: 150px;
+    }
 }
 
 @media (min-width: 992px) {
