@@ -4,69 +4,6 @@
     background-color: #fdfdfd;
 }
 
-.tiles {
-    display: flex;
-    justify-content: space-evenly;
-    background: #fff;
-    padding: 1em 2em;
-    color: #333;
-    margin-bottom: 1.5em;
-    text-align: center;
-    resize: horizontal;
-    box-shadow: 16px 11px 16px #e9e9e9;
-    border-radius: 8px;
-}
-
-.tiles-content {
-    max-width: 275px;
-}
-
-.flaticon-artificial-intelligence:before {
-    color: transparent;
-    background: linear-gradient(180deg, #01a0f9, #09c778);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.flaticon-ai:before {
-    color: transparent;
-    background: linear-gradient(180deg, #01a0f9, #09c778);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.flaticon-artificial-intelligence-1:before {
-    text-decoration: none;
-    color: transparent;
-    background: linear-gradient(180deg, #01a0f9, #09c778);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.flaticon-robotic-arm:before {
-    color: transparent;
-    background: linear-gradient(180deg, #01a0f9, #09c778);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.tiles-content .title {
-    font-size: 1.1em;
-    font-weight: 600;
-    margin: 0.5em 0;
-}
-
-.tiles:hover {
-    background-image: linear-gradient(135deg, #01a0f9, #09c778);
-    transition: all 0.75s ease-in-outd 0s;
-}
-
-.tiles:hover p,
-.tiles:hover .title,
-.tiles:hover [class*='flaticon-']::before {
-    color: white;
-}
-
 .about-description {
     background-color: #fdfdfd;
     text-align: left;
