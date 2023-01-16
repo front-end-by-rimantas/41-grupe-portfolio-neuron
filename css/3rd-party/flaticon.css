@@ -5,7 +5,8 @@
 @font-face {
     font-family: 'Flaticon';
     src: url('../../fonts/flaticon/Flaticon.eot');
-    src: url('../../fonts/flaticon/Flaticon.eot?#iefix') format('embedded-opentype'),
+    src: url('../../fonts/flaticon/Flaticon.eot?#iefix')
+            format('embedded-opentype'),
         url('../../fonts/flaticon/Flaticon.woff2') format('woff2'),
         url('../../fonts/flaticon/Flaticon.woff') format('woff'),
         url('../../fonts/flaticon/Flaticon.ttf') format('truetype'),
@@ -58,22 +59,27 @@
 
 .flaticon-automaton:before {
     content: '\f105';
+    font-size: 70px;
 }
 
 .flaticon-brain:before {
     content: '\f106';
+    font-size: 70px;
 }
 
 .flaticon-ai-1:before {
     content: '\f107';
+    font-size: 70px;
 }
 
 .flaticon-artificial-intelligence-2:before {
     content: '\f108';
+    font-size: 70px;
 }
 
 .flaticon-artificial-intelligence-3:before {
     content: '\f109';
+    font-size: 70px;
 }
 
 .flaticon-mail:before {
@@ -110,6 +116,7 @@
 
 .flaticon-artificial-intelligence-4:before {
     content: '\f112';
+    font-size: 70px;
 }
 
 .flaticon-abc:before {

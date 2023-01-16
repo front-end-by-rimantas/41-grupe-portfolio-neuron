@@ -1,0 +1,15 @@
+.services {
+    background-color: #fdfdfd;
+}
+
+.services .tiles {
+    margin-bottom: 50px;
+}
+
+.service .section-title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}

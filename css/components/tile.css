@@ -15,6 +15,8 @@
     max-width: 275px;
 }
 
+/* "About Us" Flaticons */
+
 .flaticon-artificial-intelligence:before {
     color: transparent;
     background: linear-gradient(180deg, #01a0f9, #09c778);
@@ -59,4 +61,48 @@
 .tiles:hover .title,
 .tiles:hover [class*='flaticon-']::before {
     color: white;
+}
+
+/* "Services" Flaticons */
+
+.flaticon-brain:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-automaton:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-artificial-intelligence-2:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-artificial-intelligence-3:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-artificial-intelligence-4:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.flaticon-ai-1:before {
+    color: transparent;
+    background: linear-gradient(180deg, #01a0f9, #09c778);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
