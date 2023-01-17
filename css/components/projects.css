@@ -24,12 +24,22 @@
         var(--base-color-one),
         var(--base-color-two)
     );
+    transition: all 0.3s;
 }
 
 .project-link {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -2em;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    padding: 1em;
+    transition: all 0.3s;
+}
+
+.project-link:hover {
+    color: black;
 }
 .project-image {
     width: 100%;
@@ -37,4 +47,8 @@
 
 .single-project:hover .hover-gradient {
     opacity: 0.9;
+}
+
+.single-project:hover .project-link {
+    bottom: 0;
 }
