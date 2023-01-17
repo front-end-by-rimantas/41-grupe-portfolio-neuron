@@ -1,0 +1,16 @@
+.projects-title {
+    text-align: center;
+}
+
+.single-project {
+    position: relative;
+}
+
+.project-link {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.project-image {
+    width: 100%;
+}
