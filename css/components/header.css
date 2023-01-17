@@ -51,11 +51,12 @@
     justify-content: center;
 }
 
-.header-socials > i {
+.header-socials > a {
     padding-left: 20px;
+    color: white;
 }
 
-.header-socials > i:first-child {
+.header-socials > a:first-child {
     padding-left: 0px;
 }
 
@@ -128,6 +129,20 @@
 
 .dropdown-visible {
     display: flex;
+}
+
+.navigation-cart-search > nav > a:hover,
+.navigation-cart-search > a:hover {
+    color: #bcbbbb;
+    transition: 0.5s;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+}
+
+nav > .active {
+    color: #bcbbbb;
 }
 
 @media (min-width: 768px) {
