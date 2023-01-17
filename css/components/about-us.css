@@ -1,15 +1,19 @@
 /* 1em = 16px */
 
 #neuron-about {
-    background-color: #fdfdfd;
+    background-color: #eff1f7;
 }
 
 .about-description {
-    background-color: #fdfdfd;
+    background-color: #eff1f7;
     text-align: left;
     line-height: 1.5em;
     margin-bottom: 1em;
     color: #333;
+}
+
+.about-description .section-title {
+    text-align: left;
 }
 
 a {
@@ -36,7 +40,7 @@ a {
 }
 
 p {
-    margin: 2em 0;
+    margin-top: 15px;
 }
 
 @media (min-width: 546px) {
@@ -87,11 +91,11 @@ p {
         float: right;
     }
 
-    .tiles {
-        padding: 1em;
+    .container-tiles .tiles {
+        padding: 16px;
     }
 
-    .tiles-content {
+    .container-tiles .tiles-content {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -99,7 +103,7 @@ p {
     }
 
     /*first tile height small correction*/
-    .tiles .responsive-title {
+    .container-tiles .tiles .responsive-title {
         font-size: 15.4px;
     }
 
@@ -116,16 +120,20 @@ p {
         font-size: 1em;
     }
 
-    .tiles-content .title {
+    .about-description .section-title {
+        font-size: 2em;
+    }
+
+    .container-tiles .tiles-content .title {
         font-size: 1.15em;
     }
 
-    .tiles-content {
+    .container-tiles .tiles-content {
         max-width: 250px;
         padding: 0.5em;
     }
 
-    .tiles-content p {
+    .container-tiles .tiles-content p {
         margin: 0;
         padding: 0;
     }

@@ -12,9 +12,10 @@
 @import '../components/hero.css';
 @import '../components/header.css';
 @import '../components/projects.css';
+@import '../components/services.css';
+@import '../components/stats.css';
 @import '../components/tile.css';
 @import '../components/titles.css';
-@import '../components/stats.css';
 
 /* Custom */
 
