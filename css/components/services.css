@@ -3,7 +3,7 @@
 }
 
 .services .tiles {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -42,6 +42,10 @@
         font-size: 30px;
         margin-bottom: 50px;
     }
+
+    .services .tiles {
+        margin-bottom: 35px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -52,6 +56,7 @@
     .services .tiles {
         max-width: 275px;
         padding: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -59,6 +64,7 @@
     .services .tiles {
         max-width: 350px;
         padding: 40px;
+        margin-bottom: 30px;
     }
     .services .tiles-content {
         max-width: 300px;
@@ -69,9 +75,15 @@
 }
 
 @media (min-width: 1400px) {
+    .services .container-tiles {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .services .tiles {
         max-width: 425px;
         padding: 40px;
+        margin-bottom: 25px;
     }
     .services .tiles-content {
         max-width: 400px;
