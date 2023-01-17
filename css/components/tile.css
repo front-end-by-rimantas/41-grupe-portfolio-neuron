@@ -1,18 +1,20 @@
 .tiles {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     background: #fff;
-    padding: 1em 2em;
+    padding: 2em 2em;
     color: #333;
     margin-bottom: 1.5em;
     text-align: center;
     resize: horizontal;
-    box-shadow: 16px 11px 16px #e9e9e9;
+    /* box-shadow: 15px 15px 16px #e9e9e9; (testing new shadow) */
+    box-shadow: 1px 0px 22px -2px rgba(51, 51, 51, 0.33);
     border-radius: 8px;
 }
 
 .tiles-content {
-    max-width: 275px;
+    max-width: 425px;
 }
 
 /* "About Us" Flaticons */
@@ -49,7 +51,7 @@
 .tiles-content .title {
     font-size: 1.1em;
     font-weight: 600;
-    margin: 0.5em 0;
+    margin: 10px 0;
 }
 
 .tiles:hover {

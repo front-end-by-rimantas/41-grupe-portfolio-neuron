@@ -4,12 +4,74 @@
 
 .services .tiles {
     margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.service .section-title {
+.section-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 20px;
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.services .tiles-content {
+    text-align: center;
+}
+.services .tiles-description {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+@media (min-width: 546px) {
+    .section-title {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .services .container-tiles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) {
+    .services .tiles-content {
+        max-width: 200px;
+    }
+
+    .services .tiles {
+        max-width: 275px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .services .tiles {
+        max-width: 350px;
+        padding: 40px;
+    }
+    .services .tiles-content {
+        max-width: 300px;
+    }
+    .services .container-tiles .tiles-content .title {
+        font-size: 16.9px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .services .tiles {
+        max-width: 425px;
+        padding: 40px;
+    }
+    .services .tiles-content {
+        max-width: 400px;
+    }
+
+    .services .container-tiles .tiles-content .title {
+        font-size: 21.5px;
+    }
 }
