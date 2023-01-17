@@ -12,6 +12,10 @@
     color: #333;
 }
 
+.about-description .section-title {
+    text-align: left;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -116,7 +120,7 @@ p {
         font-size: 1em;
     }
 
-    .section-title {
+    .about-description .section-title {
         font-size: 2em;
     }
 
