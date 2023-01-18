@@ -1,0 +1,28 @@
+#our-work {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    padding-top: 5em;
+    text-align: center;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+#our-work [class*='flaticon']::before {
+    display: inline-block;
+    font-size: 5em;
+    background: linear-gradient(
+        135deg,
+        var(--base-color-two),
+        var(--base-color-one)
+    );
+    color: white;
+    padding: 0.5em;
+    border-radius: 50%;
+    text-align: center;
+}
