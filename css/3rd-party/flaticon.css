@@ -83,6 +83,7 @@
 
 .flaticon-mail:before {
     content: '\f10a';
+    font-size: 150px;
 }
 
 .flaticon-machine-learning:before {
@@ -196,6 +197,7 @@
 
 .flaticon-send:before {
     content: '\f126';
+    font-size: 15px;
 }
 
 .flaticon-left-arrow:before {
