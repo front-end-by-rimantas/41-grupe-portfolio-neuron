@@ -16,42 +16,64 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>Neuron</title>
+    <script src="./js/pages/home.js" type="module"></script>
 </head>
 
 <body>
     <!-- Header start -->
     <header class="container header-comp">
-        <div class="row header-contacts-socials">
+        <div class="row header-contacts-socials hidden visible-md-flex">
             <div class="header-contacts">
                 <div class="header-email">
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    <a href="#" class="header-link">info@yourwebsite.com</a>
+                    <a href="mailto:info@yourwebsite.com" class="header-link">info@yourwebsite.com</a>
                 </div>
                 <div class="header-phone">
                     <i class="fa fa-phone icon-wh" aria-hidden="true"></i>
-                    <a href="#" class="header-link">(+123) 456789</a>
+                    <a href="tel:(+123) 456789" class="header-link">(+123) 456789</a>
                 </div>
             </div>
             <div class="header-socials">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-google-plus" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="row header-logo-nav">
-            <img src="./img/logo/logo-white.png" alt="Logo white">
-            <nav>
-                <a href="#" class="header-link">Home</a>
-                <a href="#" class="header-link">About</a>
-                <a href="#" class="header-link">Features</a>
-                <a href="#" class="header-link">Pages</a>
-                <a href="#" class="header-link">Shop</a>
-                <a href="#" class="header-link">Blog</a>
-                <a href="#" class="header-link">Contact</a>
-                <a href="#" class="header-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-                <a href="#" class="header-link"><i class="fa fa-search" aria-hidden="true"></i></a>
-            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="inner-content col-12">
+                        <a href="#"><img src="./img/logo/logo-white.png" alt="Logo white"></a>
+                        <div class="navigation-cart-search">
+                            <div class="hamburger-menu visible-flex hidden-lg">
+                                <i class="fa fa-bars"></i>
+                                <p>MENU</p>
+                                <nav id="dropdown" class="dropdown-menu">
+                                    <a href="#" class="header-link">Home</a>
+                                    <a href="#" class="header-link">About</a>
+                                    <a href="#" class="header-link">Features</a>
+                                    <a href="#" class="header-link">Pages</a>
+                                    <a href="#" class="header-link">Shop</a>
+                                    <a href="#" class="header-link">Blog</a>
+                                    <a href="#" class="header-link">Contact</a>
+                                </nav>
+                            </div>
+                            <nav class="hidden visible-lg-flex">
+                                <a href="#" class="header-link active">Home</a>
+                                <a href="#" class="header-link">About</a>
+                                <a href="#" class="header-link">Features</a>
+                                <a href="#" class="header-link">Pages</a>
+                                <a href="#" class="header-link">Shop</a>
+                                <a href="#" class="header-link">Blog</a>
+                                <a href="#" class="header-link">Contact</a>
+                            </nav>
+                            <a href="#" class="header-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                            <a href="#" class="header-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Header end -->
@@ -76,15 +98,217 @@
     <!-- Hero end -->
 
     <!-- About Us start -->
+    <section id="neuron-about" class="container">
+        <div class="upper-row row col-12">
+            <div class="container-tiles col-12 col-lg-6 col-xl-7">
+                <div class="column-left col-12 col-md-6">
+                    <div class="tiles ">
+                        <div class="tiles-content">
+                            <i class="flaticon-artificial-intelligence">
+                            </i>
+                            <h3 class="title responsive-title">Advanced programming</h3>
+                            <p class="tiles-description">Find out what's working and what's not Dig your data to
+                                find
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tiles ">
+                        <div class="tiles-content">
+                            <i class="flaticon-ai"></i>
+                            <h3 class="title">AI Chippest</h3>
+                            <p class="tiles-description">Find out what's working and what's not Dig your data to find
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-right col-12 col-md-6">
+                    <div class="tiles">
+                        <div class="tiles-content">
+                            <i class="flaticon-artificial-intelligence-1"></i>
+                            <h3 class="title">Cloud AI intergration</h3>
+                            <p class="tiles-description">Find out what's working and what's not Dig your data to find
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tiles">
+                        <div class="tiles-content">
+                            <i class="flaticon-robotic-arm"></i>
+                            <h3 class="title">Robotic Arm</h3>
+                            <p class="tiles-description">Find out what's working and what's not Dig your data to find
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-description col-12 col-lg-6 col-xl-5">
+                <h2 class="section-title title-bg">Power your creativity with artificial intelligence</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat
+                    expedita iure, esse in
+                    eaque
+                    atque quidem amet obcaecati corporis recusandae, ullam cumque animi porro. Ducimus quasi ratione
+                    quae
+                    ipsum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nihil
+                    earum sequi libero quaerat
+                    voluptatem delectus? Ipsam ut necessitatibus odio dolores voluptatem dignissimos laudantium commodi,
+                    doloribus quo optio minus qui delectus reprehenderit magnam similique. Illo?</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="lower-row row col-12">
+            <div class="col-12 col-lg-6 col-xl-5 lower-img">
+                <img src="./img/about/about-us.png" alt="Picture with sceintists programming AI" class="img">
+            </div>
+            <div class="about-description lower-about-description col-12 col-lg-6 col-xl-7">
+                <h2 class="section-title title-bg"> We create the most realistic artificial intelligence</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                    sint ipsa quo corrupti? Cum
+                    adipisci dolorum enim, sapiente corporis placeat aliquam porro, fugit officia, asperiores omnis
+                    itaque! Doloremque, laborum ea.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure quo
+                    rerum nobis reiciendis quos
+                    tempora eaque sit, consequatur ullam perferendis pariatur dolorem ipsum. Ea nobis quas
+                    consectetur
+                    non possimus alias laborum amet tempora quam at?</p>
+                <a href="#" class="btn">Learn More</a>
+                <a href="https://youtu.be/2PFVhej26BE" target="_blank"><i class="flaticon-play-button"></i></a>
+            </div>
+
+        </div>
+    </section>
     <!-- About Us end -->
 
     <!-- Stats start -->
+    <section class="container stats">
+        <div class="row">
+            <div class="stats-counter">
+                <div class="single-counter">
+                    <img src="./img/stats/count-shape.png" alt="Brains img">
+                    <div class="counter-text">
+                        <div class="count-text-numbers">6000</div>
+                        <h5 class="count-text-title">Complete Project</h5>
+                    </div>
+                </div>
+                <div class="single-counter">
+                    <img src="./img/stats/count-shape.png" alt="Brains img">
+                    <div class="counter-text">
+                        <div class="count-text-numbers">400</div>
+                        <h5 class="count-text-title">NLP Experts</h5>
+                    </div>
+                </div>
+                <div class="single-counter">
+                    <img src="./img/stats/count-shape.png" alt="Brains img">
+                    <div class="counter-text">
+                        <div class="count-text-numbers">3500</div>
+                        <h5 class="count-text-title">Satisfied Clients</h5>
+                    </div>
+                </div>
+                <div class="single-counter">
+                    <img src="./img/stats/count-shape.png" alt="Brains img">
+                    <div class="counter-text">
+                        <div class="count-text-numbers">8000</div>
+                        <h5 class="count-text-title">Industries Served</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Stats end -->
 
     <!-- Services start -->
+    <section class="container services">
+        <div class="row">
+            <h2 class="section-title title-bg-center">Our core services</h2>
+            <div class="container-tiles">
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-brain">
+                        </i>
+                        <h3 class="title responsive-title">Virtual Personal Assistants</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-automaton">
+                        </i>
+                        <h3 class="title">Videos Surveillance</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-artificial-intelligence-2">
+                        </i>
+                        <h3 class="title">Social Media Services</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-artificial-intelligence-3">
+                        </i>
+                        <h3 class="title">Online Customer Support</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-artificial-intelligence-4">
+                        </i>
+                        <h3 class="title responsive-title">Search Engine Result Refining</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+                <div class="tiles ">
+                    <div class="tiles-content">
+                        <i class="flaticon-ai-1">
+                        </i>
+                        <h3 class="title">Online Fraud Detection</h3>
+                        <p class="tiles-description">Capitalize on low hanging fruit to identify a ball park value added activity to beta test. Override the digital divide with additional
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!-- Services end -->
 
     <!-- Projects start -->
+    <section class="container">
+        <div class="row">
+            <h2 class="section-title title-bg-center projects-title col-12">Our Latest Project</h2>
+        </div>
+        <div class="row projects">
+            <div class="single-project">
+                <img src="./img/projects/project-img-1.jpeg" alt="AI Image" class="project-image">
+                <div class="hover-gradient">
+                    <a href="#" class="project-link">Vocal Avatar API</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <img src="./img/projects/project-img-2.jpeg" alt="AI Image" class="project-image">
+                <div class="hover-gradient">
+                    <a href="#" class="project-link">Vocal Avatar API</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <img src="./img/projects/project-img-1.jpeg" alt="AI Image" class="project-image">
+                <div class="hover-gradient">
+                    <a href="#" class="project-link">Vocal Avatar API</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!-- Projects end -->
 
     <!-- Subscribe start -->
