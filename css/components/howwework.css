@@ -1,9 +1,14 @@
+.how-we-work > .row {
+    display: flex;
+    flex-direction: column;
+}
+
 #our-work {
     display: flex;
     flex-direction: column;
     gap: 3em;
-    align-items: center;
-    padding-top: 5em;
+    padding-top: 3em;
+    align-self: center;
 }
 
 .work-item {
@@ -35,4 +40,19 @@
     padding: 0.45em 0.5em;
     border-radius: 50%;
     color: white;
+}
+
+@media (min-width: 768px) {
+    #our-work {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 690px;
+    }
+}
+
+@media (min-width: 992px) {
+    #our-work {
+        max-width: 992px;
+    }
 }
