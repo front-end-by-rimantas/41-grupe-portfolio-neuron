@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.how-we-work .section-title {
+    font-size: 1.25em;
+}
+
 #our-work {
     display: flex;
     flex-direction: column;
@@ -84,6 +88,12 @@
     transform: translateY(-50%);
 }
 
+@media (min-width: 576px) {
+    .how-we-work .section-title {
+        font-size: 1.75em;
+    }
+}
+
 @media (min-width: 768px) {
     #our-work {
         flex-direction: row;
@@ -102,5 +112,17 @@
     .work-item:not(:last-child) .round::before {
         width: 10.5em;
         left: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .how-we-work .section-title {
+        font-size: 2.25em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .how-we-work .section-title {
+        font-size: 2.75em;
     }
 }
