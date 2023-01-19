@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.work-item > .work-title {
+    font-size: 1.25em;
+}
+
 .icon-container {
     display: flex;
     flex-direction: column;
@@ -119,10 +123,29 @@
     .how-we-work .section-title {
         font-size: 2.25em;
     }
+    .icon-container {
+        height: 250px;
+        width: 250px;
+    }
+
+    #our-work [class*='flaticon']::before {
+        font-size: 6.5em;
+    }
+
+    .work-item:not(:last-child) .round::before {
+        width: 13.5em;
+    }
 }
 
 @media (min-width: 1400px) {
     .how-we-work .section-title {
-        font-size: 2.75em;
+        font-size: 2.65em;
+    }
+    #our-work {
+        gap: 5.5em;
+        padding-top: 2.5em;
+    }
+    .work-item:not(:last-child) .round::before {
+        width: 15em;
     }
 }
