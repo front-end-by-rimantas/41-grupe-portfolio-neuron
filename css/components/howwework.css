@@ -4,13 +4,24 @@
     gap: 3em;
     align-items: center;
     padding-top: 5em;
-    text-align: center;
 }
 
 .work-item {
     display: flex;
     flex-direction: column;
     gap: 3em;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed var(--base-color-two);
+    text-align: center;
+    border-radius: 50%;
 }
 
 #our-work [class*='flaticon']::before {
@@ -21,8 +32,7 @@
         var(--base-color-two),
         var(--base-color-one)
     );
-    color: white;
-    padding: 0.5em;
+    padding: 0.45em 0.5em;
     border-radius: 50%;
-    text-align: center;
+    color: white;
 }
