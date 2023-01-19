@@ -14,7 +14,7 @@
 .work-item {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 2em;
     align-items: center;
 }
 
@@ -42,17 +42,65 @@
     color: white;
 }
 
+.round {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed var(--base-color-two);
+    border-radius: 50%;
+}
+
+.round-shape {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(
+        135deg,
+        var(--base-color-two),
+        var(--base-color-one)
+    );
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.work-item:not(:last-child) .round::after {
+    content: '\f126';
+    font-family: Flaticon;
+    color: var(--base-color-one);
+    font-size: 20px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.work-item:not(:last-child) .round::before {
+    content: '';
+    position: absolute;
+    border: 1px dashed var(--base-color-two);
+    width: 16.5em;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+}
+
 @media (min-width: 768px) {
     #our-work {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 6em;
         max-width: 690px;
     }
 }
 
 @media (min-width: 992px) {
     #our-work {
-        max-width: 992px;
+        flex-wrap: nowrap;
+        gap: 3em;
+    }
+    .work-item:not(:last-child) .round::before {
+        width: 10.5em;
+        left: 70px;
     }
 }
