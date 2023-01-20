@@ -1,0 +1,27 @@
+.contacts-bg {
+    background-image: url(../../img/backgrounds/contactc-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts-us {
+    background-color: white;
+}
+
+.contacts-us > .section-title {
+    text-align: left;
+}
+
+.contacts-us > .contact-details [class*='flaticon']::before {
+    font-size: 2em;
+    background: linear-gradient(var(--base-color-two), var(--base-color-one));
+    background-clip: text;
+    color: transparent;
+}
+
+.contacts-us > [class*='flaticon']::before {
+    font-size: 7em;
+    background: linear-gradient(var(--base-color-two), var(--base-color-one));
+    background-clip: text;
+    color: transparent;
+}
