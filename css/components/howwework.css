@@ -1,0 +1,151 @@
+.how-we-work > .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-we-work .section-title {
+    font-size: 1.25em;
+}
+
+#our-work {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding-top: 3em;
+    align-self: center;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.work-item > .work-title {
+    font-size: 1.25em;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed var(--base-color-two);
+    text-align: center;
+    border-radius: 50%;
+}
+
+#our-work [class*='flaticon']::before {
+    display: inline-block;
+    font-size: 5em;
+    background: linear-gradient(
+        135deg,
+        var(--base-color-two),
+        var(--base-color-one)
+    );
+    padding: 0.45em 0.5em;
+    border-radius: 50%;
+    color: white;
+}
+
+.round {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed var(--base-color-two);
+    border-radius: 50%;
+}
+
+.round-shape {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(
+        135deg,
+        var(--base-color-two),
+        var(--base-color-one)
+    );
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.work-item:not(:last-child) .round::after {
+    content: '\f126';
+    font-family: Flaticon;
+    color: var(--base-color-one);
+    font-size: 20px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.work-item:not(:last-child) .round::before {
+    content: '';
+    position: absolute;
+    border: 1px dashed var(--base-color-two);
+    width: 16.5em;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 576px) {
+    .how-we-work .section-title {
+        font-size: 1.75em;
+    }
+}
+
+@media (min-width: 768px) {
+    #our-work {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6em;
+        max-width: 690px;
+    }
+}
+
+@media (min-width: 992px) {
+    #our-work {
+        flex-wrap: nowrap;
+        gap: 3em;
+    }
+    .work-item:not(:last-child) .round::before {
+        width: 10.5em;
+        left: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .how-we-work .section-title {
+        font-size: 2.25em;
+    }
+    .icon-container {
+        height: 250px;
+        width: 250px;
+    }
+
+    #our-work [class*='flaticon']::before {
+        font-size: 6.5em;
+    }
+
+    .work-item:not(:last-child) .round::before {
+        width: 13.5em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .how-we-work .section-title {
+        font-size: 2.65em;
+    }
+    #our-work {
+        gap: 5.5em;
+        padding-top: 2.5em;
+    }
+    .work-item:not(:last-child) .round::before {
+        width: 16em;
+    }
+}
