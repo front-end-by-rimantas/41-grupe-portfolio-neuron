@@ -9,8 +9,9 @@
 /* Components */
 @import '../components/about-us.css';
 @import '../components/button.css';
-@import '../components/hero.css';
 @import '../components/header.css';
+@import '../components/hero.css';
+@import '../components/partners.css';
 @import '../components/projects.css';
 @import '../components/services.css';
 @import '../components/stats.css';

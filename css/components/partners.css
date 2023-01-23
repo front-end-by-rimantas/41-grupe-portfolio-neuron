@@ -1,0 +1,20 @@
+.partners {
+    padding: 0;
+    background-color: #eff1f7;
+}
+
+.container .partners-logo {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    background: url(../../img/backgrounds/partners-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partners .partners-logo img {
+    width: 80px;
+    padding: 10px 0;
+}

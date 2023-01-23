@@ -1,5 +1,9 @@
-.newsletter {
+.subscribe {
     display: block;
+    background-color: #eff1f7;
+}
+.newsletter {
+    background-color: #ffffff;
 }
 
 .flaticon-mail:before {
@@ -16,13 +20,17 @@
     margin: 25px;
 }
 input[type='email'] {
-    width: 80%;
+    margin-left: 25px;
+    width: 73%;
     border: none;
     border-bottom: 1px solid #01a0f933;
 }
 
 .subscribe .email-btn {
     display: inline-block;
+    position: relative;
+    top: -25px;
+    left: -10px;
     text-align: center;
     line-height: 11px;
     padding: 15px 13px;
@@ -32,24 +40,4 @@ input[type='email'] {
 .subscribe .newsletter-right .flaticon-send {
     font-size: 20px;
     transform: rotate(-45deg);
-}
-
-.subscribe .partners {
-    width: 100%;
-    height: auto;
-    background: url(.\img\backgrounds\partners-background.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* background-color: black; */
-}
-.partners .partners-logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.partners .partners-logo img {
-    width: 70px;
-    height: auto;
-    padding: 10px 3px;
 }
