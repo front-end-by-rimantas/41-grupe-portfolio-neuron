@@ -55,3 +55,44 @@
 .contact-details > .details a:hover {
     color: var(--base-color-one);
 }
+
+.contact-with-us > .form-container > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+}
+
+form > .one-input > input {
+    width: 100%;
+}
+
+::placeholder {
+    color: white;
+}
+
+.one-input > input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 5px 25px;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+form > .one-input > #message {
+    height: 200px;
+}
+
+form .submit-button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
