@@ -6,10 +6,22 @@
 
 .contacts-us {
     background-color: white;
+    border-radius: 5px;
+    padding: 2em;
 }
 
 .contacts-us > .section-title {
     text-align: left;
+}
+
+.contacts-us > .contact-details {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.contact-details > .details p {
+    margin-top: 0;
 }
 
 .contacts-us > .contact-details [class*='flaticon']::before {
