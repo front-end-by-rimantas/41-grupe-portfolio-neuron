@@ -8,20 +8,18 @@
     background-color: white;
     border-radius: 5px;
     padding: 2em;
+    margin-bottom: 2em;
 }
 
 .contacts-us > .section-title {
     text-align: left;
+    font-size: 1.25em;
 }
 
 .contacts-us > .contact-details {
     display: flex;
     margin-top: 2em;
     gap: 1em;
-}
-
-.contact-details > .details p {
-    margin-top: 0;
 }
 
 .contacts-us > .contact-details [class*='flaticon']::before {
@@ -36,4 +34,24 @@
     background: linear-gradient(var(--base-color-two), var(--base-color-one));
     background-clip: text;
     color: transparent;
+}
+
+.contact-details > .details > h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.contact-details > .details p {
+    margin-top: 0;
+}
+
+.contact-details > .details a {
+    color: #666666;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.contact-details > .details a:hover {
+    color: var(--base-color-one);
 }
