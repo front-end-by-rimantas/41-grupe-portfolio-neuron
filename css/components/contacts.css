@@ -155,10 +155,16 @@ form .submit-button {
     }
 
     .contact-with-us form {
-        margin-top: 2em;
+        margin-top: 6em;
     }
 
     .contact-with-us > .form-container > form {
         gap: 1.75em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contact-with-us form {
+        margin-top: 2em;
     }
 }
