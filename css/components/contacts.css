@@ -1,0 +1,209 @@
+.contacts-bg {
+    background-image: url(../../img/backgrounds/contactc-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container > .row > .contacts-us {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 0 0 2em;
+    width: 100%;
+    box-shadow: 2px 10px 50px rgba(158, 158, 158, 0.25);
+}
+
+.contacts-us > .section-title {
+    text-align: left;
+    font-size: 1.25em;
+}
+
+.contacts-us > .contact-details {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.contacts-us > .contact-details [class*='flaticon']::before {
+    font-size: 2em;
+    background: linear-gradient(var(--base-color-two), var(--base-color-one));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contacts-us > [class*='flaticon']::before {
+    font-size: 7em;
+    background: linear-gradient(var(--base-color-two), var(--base-color-one));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contact-details > .details > h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.contact-details > .details p {
+    margin-top: 0;
+}
+
+.contact-details > .details a {
+    display: block;
+    color: #666666;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.contact-details > .details a:hover,
+.submit-button:hover {
+    color: var(--base-color-one);
+}
+
+.container > .row > .form-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.contact-with-us > .form-container > form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25em;
+}
+
+form > .one-input > input,
+textarea {
+    width: 100%;
+}
+
+::placeholder {
+    color: white;
+}
+
+.one-input > input,
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 5px 25px;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+textarea {
+    font-size: 1.2em;
+    padding: 10px 25px;
+}
+
+form > .one-input > #message {
+    height: 200px;
+    resize: none;
+}
+
+form .submit-button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+@media (min-width: 576px) {
+    .container > .row > .contacts-us {
+        padding: 3em;
+    }
+    .contact-with-us > .contacts-us > .section-title {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-with-us > .form-container > form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .one-input > input,
+    textarea {
+        padding: 10px 25px;
+    }
+    .message-box,
+    .form-button {
+        grid-column: span 2;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    form .submit-button {
+        font-size: 1em;
+        font-weight: 500;
+        padding: 1em;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-with-us > .contacts-us > .section-title {
+        font-size: 2em;
+    }
+
+    .container > .row > .contacts-us {
+        padding: 2em 3em;
+        width: max-content;
+        margin-top: -9em;
+    }
+
+    .container > .row > .form-container {
+        width: 60%;
+    }
+
+    .contact-with-us form {
+        margin-left: 3em;
+        margin-top: -1em;
+    }
+
+    .contact-with-us > .form-container > form {
+        gap: 1.75em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container > .row > .contacts-us {
+        padding: 3em 5em;
+        margin-top: -9em;
+    }
+
+    .container > .row > .form-container {
+        width: 50%;
+    }
+
+    .contact-with-us form {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container > .row > .form-container {
+        width: 60%;
+    }
+
+    .contact-with-us form {
+        margin-top: 2em;
+    }
+
+    .contact-with-us > .contacts-us > .section-title {
+        font-size: 2.75em;
+    }
+}
