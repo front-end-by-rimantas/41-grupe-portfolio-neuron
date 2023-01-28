@@ -1,0 +1,52 @@
+footer.container {
+    position: relative;
+    background-image: url(../../img/backgrounds/footer-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+footer > .info-columns .single-column {
+    position: relative;
+}
+
+.info-columns > .single-column {
+    margin-bottom: 2em;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.footer-title.title-bg::after {
+    width: 4em;
+    top: 0.9em;
+}
+
+.single-column a {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #666;
+}
+
+.copyright > p,
+.copyright > p > a {
+    text-align: center;
+    color: #333;
+}
+
+.single-column a:hover,
+.copyright a:hover {
+    color: var(--base-color-two);
+}
+
+.page-links,
+.privacy-tos-auth {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.6em;
+}
