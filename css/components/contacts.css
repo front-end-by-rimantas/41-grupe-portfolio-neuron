@@ -57,66 +57,8 @@
     transition: color 0.3s;
 }
 
-.contact-details > .details a:hover,
-.submit-button:hover {
+.contact-details > .details a:hover {
     color: var(--base-color-one);
-}
-
-.container > .row > .form-container {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-.contact-with-us > .form-container > form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25em;
-}
-
-form > .one-input > input,
-textarea {
-    width: 100%;
-}
-
-::placeholder {
-    color: white;
-}
-
-.one-input > input,
-textarea {
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: white;
-    padding: 5px 25px;
-    font-size: 0.9em;
-    line-height: 2em;
-}
-
-textarea {
-    font-size: 1.2em;
-    padding: 10px 25px;
-}
-
-form > .one-input > #message {
-    height: 200px;
-    resize: none;
-}
-
-form .submit-button {
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 500;
-    padding: 0.5em;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: color 0.3s;
 }
 
 @media (min-width: 576px) {
@@ -125,32 +67,6 @@ form .submit-button {
     }
     .contact-with-us > .contacts-us > .section-title {
         font-size: 1.8em;
-    }
-}
-
-@media (min-width: 768px) {
-    .contact-with-us > .form-container > form {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .one-input > input,
-    textarea {
-        padding: 10px 25px;
-    }
-    .message-box,
-    .form-button {
-        grid-column: span 2;
-    }
-
-    textarea {
-        width: 100%;
-    }
-
-    form .submit-button {
-        font-size: 1em;
-        font-weight: 500;
-        padding: 1em;
-        border-radius: 5px;
     }
 }
 
@@ -164,19 +80,6 @@ form .submit-button {
         width: max-content;
         margin-top: -9em;
     }
-
-    .container > .row > .form-container {
-        width: 60%;
-    }
-
-    .contact-with-us form {
-        margin-left: 3em;
-        margin-top: -1em;
-    }
-
-    .contact-with-us > .form-container > form {
-        gap: 1.75em;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -184,25 +87,9 @@ form .submit-button {
         padding: 3em 5em;
         margin-top: -9em;
     }
-
-    .container > .row > .form-container {
-        width: 50%;
-    }
-
-    .contact-with-us form {
-        margin-top: 2em;
-    }
 }
 
 @media (min-width: 1400px) {
-    .container > .row > .form-container {
-        width: 60%;
-    }
-
-    .contact-with-us form {
-        margin-top: 2em;
-    }
-
     .contact-with-us > .contacts-us > .section-title {
         font-size: 2.75em;
     }
