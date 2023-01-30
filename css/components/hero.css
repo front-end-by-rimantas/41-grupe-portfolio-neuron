@@ -70,6 +70,19 @@
     color: #01a1f9;
 }
 
+.robot-animation {
+    animation: robot-animation 2s infinite alternate;
+}
+
+@keyframes robot-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
 @media (min-width: 576px) {
     .main-title {
         font-size: 35px;
