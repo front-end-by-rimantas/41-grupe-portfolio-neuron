@@ -67,6 +67,10 @@ footer > .info-columns .single-column {
     transition: all 0.3s;
 }
 
+.single-column p {
+    max-width: 100%;
+}
+
 .copyright {
     padding: 2em 0;
     border-top: 1px solid #ddd;
@@ -91,6 +95,12 @@ footer > .info-columns .single-column {
     gap: 0.6em;
 }
 
+@media (min-width: 480px) {
+    .info-columns > .single-column > p {
+        max-width: 53%;
+    }
+}
+
 @media (min-width: 992px) {
     footer.container {
         padding: 6em 0 0;
@@ -103,6 +113,7 @@ footer > .info-columns .single-column {
     .info-columns > .single-column > p,
     .copyright {
         font-size: 0.9em;
+        max-width: 100%;
     }
 
     .container > .row.copyright {
