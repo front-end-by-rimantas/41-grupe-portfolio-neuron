@@ -1,0 +1,149 @@
+footer.container {
+    position: relative;
+    background-image: url(../../img/backgrounds/footer-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    padding: 3em 0 0;
+}
+
+footer > .info-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+footer > .info-columns .single-column {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.footer-socials {
+    display: flex;
+    margin-top: 1.5em;
+    gap: 1.5em;
+}
+
+.footer-socials > .social {
+    width: 2.25em;
+    height: 2.25em;
+    line-height: 2.25em;
+    font-size: 1.25em;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(
+        135deg,
+        var(--base-color-two),
+        var(--base-color-one)
+    );
+    color: white;
+}
+
+.footer-socials > .social:hover {
+    background: linear-gradient(
+        45deg,
+        var(--base-color-one),
+        var(--base-color-two)
+    );
+    color: white;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.footer-title.title-bg::after {
+    width: 4em;
+    top: 0.9em;
+}
+
+.single-column a {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #666;
+    transition: all 0.3s;
+}
+
+.single-column p {
+    max-width: 100%;
+}
+
+.copyright {
+    padding: 2em 0;
+    border-top: 1px solid #ddd;
+}
+
+.copyright > p,
+.copyright > p > a {
+    text-align: center;
+    color: #333;
+}
+
+.single-column a:hover,
+.copyright a:hover {
+    color: var(--base-color-two);
+}
+
+.page-links,
+.privacy-tos-auth {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.6em;
+}
+
+@media (min-width: 480px) {
+    .info-columns > .single-column > p {
+        max-width: 53%;
+    }
+}
+
+@media (min-width: 992px) {
+    footer.container {
+        padding: 6em 0 0;
+    }
+    footer > .info-columns {
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .info-columns > .single-column > p,
+    .copyright {
+        font-size: 0.9em;
+        max-width: 100%;
+    }
+
+    .container > .row.copyright {
+        padding: 0;
+        margin: 5em 0 0;
+        width: 100%;
+    }
+
+    .container > .copyright > .col-12 {
+        padding: 2em 0;
+        margin-top: 0;
+    }
+
+    .footer-logo {
+        margin-bottom: 1.5em;
+    }
+
+    .footer-title {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+    }
+
+    .page-links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 170px;
+    }
+    .footer-title.title-bg::after {
+        width: 3.5em;
+        top: 0.8em;
+    }
+}
